@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index2/index2",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "测试页",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "主页",
+          "iconPath": "pages/icons/main.png",
+          "selectedIconPath": "pages/icons/main_active.png"
+        },
+        {
+          "pagePath": "pages/index2/index2",
+          "text": "上传",
+          "iconPath": "pages/icons/upload.png",
+          "selectedIconPath": "pages/icons/upload_active.png"
+        }
+      ]
+    },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
